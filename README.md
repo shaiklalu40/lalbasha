@@ -1,7 +1,5 @@
-from fpdf import FPDF
 
-# Create a class for the PDF layout
-class ResumePDF(FPDF):
+# class ResumePDF(FPDF):
     def header(self):
         self.set_font("Arial", "B", 14)
         self.set_text_color(0, 102, 204)
